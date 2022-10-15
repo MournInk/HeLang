@@ -7,31 +7,30 @@
 <p align="center">
 <a href="https://github.com/kifuan/helang/stargazers"><img src="https://img.shields.io/github/stars/kifuan/helang.svg" alt="Stars"></a>
 <a href="https://github.com/kifuan/helang/issues"><img src="https://img.shields.io/github/issues/kifuan/helang" alt="Issues"></a>
-<a href="LICENSE"><img src="https://img.shields.io/github/license/kifuan/helang" alt="MIT License"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/license-BUPT-yellowgreen" alt="BUPT License"></a>
 <a href="https://github.com/kifuan/helang/actions/workflows/tests.yml"><img src="https://github.com/kifuan/helang/actions/workflows/tests.yml/badge.svg" alt="Test"></a>
 </p>
 
 
 # Обзор
 
-[Русский](README-RU.MD) [中文](README.MD)
-
+[English](README-EN.MD) [中文](README.MD) [Русский](README-RU.MD) 
 
 Язык программирования нового поколения **Cyber** из ли тана.
 
-
-
-
 отличная работа！любовь от **Cyber Spaces**！
 
-+ HeLang： `Kotlin` скрипт [HeLangKotlinScriptImpl](https://github.com/shaokeyibb/HeLangKotlinScriptImpl) --- [Принцип реализации](https://my.minecraft.kim/tech/2022/08/18/post-740/)
-+ HeLang： версия `C#` [HeLangSharp](https://github.com/Cyl18/HeLangSharp)
-+ `ArchLinux` https://github.com/BenderBlog/Practise-Programs/tree/main/Helang-PKGBUILD
-
-[![Star History Chart](https://api.star-history.com/svg?repos=kifuan/helang&type=Date)](https://star-history.com/#kifuan/helang&Date)
++ HeLang: `Kotlin` скрипт [HeLangKotlinScriptImpl](https://github.com/shaokeyibb/HeLangKotlinScriptImpl) --- [Принцип реализации](https://my.minecraft.kim/tech/2022/08/18/post-740/)
++ HeLang: версия `C#` [HeLangSharp](https://github.com/Cyl18/HeLangSharp)
++ Почему бы не переписать helang на Rust? [helang-rs](https://github.com/imtsuki/helang-rs)
++ `ArchLinux`https://github.com/BenderBlog/Practise-Programs/tree/main/Helang-PKGBUILD
++ `HeScript`, наслаждайтесь `helang` в `JavaScript` / `Typescript` [hescript](https://github.com/Rotten-LKZ/hescript)
++ Хотите использовать helang на языке `go`? [helang-go](https://github.com/LanceLRQ/helang-go)
++ Еще одна реализация `Rust`, поддерживающая работу с $! [HeRang](https://github.com/xjrjyy/herang)
++ Еще один `typescript` [HeAssembly](https://github.com/FurryR/HeAssembly)
++ С помощью метапрограммирования шаблонов C++ мы обнаружили, **какой язык (Meta-Helang)** в кибер-метавселенной! [HeLangCppMetaImpl](https://github.com/Timothy-Liuxf/HeLangCppMetaImpl)
 
 # Что это
-
 
 Язык киберпрограммирования следующего поколения, родился в городе **E-SMOKER**: Cyber ​​Litang.
 
@@ -46,16 +45,18 @@
 
 ## Без установки
 
-1. клон исходника：
+1. клон исходника:
 
    ```bash
-   > git clone git@github.com:kifuan/helang.git
+   > git clone https://github.com/kifuan/helang.git
    ```
 
 2. Загрузите необходимые сторонние библиотеки:
 
    ```bash
    > pip install -r requirements.txt
+   # если вам нужен графический интерфейс
+   > pip install -r requirements-gui.txt
    ```
 
 3. Вы можете изменить **отличный скрипт** `great.he` и запустить `helang.py` как `great`:
@@ -67,7 +68,7 @@
 4. Вы также можете запустить `helang.py` как `оболочку` и вести диалог в киберпространстве с **Saint He**, напрямую введя команду HeLang:
 
    ```bash
-   > python helang.py shell
+   > python helang.py shell 
    ```
 
    На этом этапе вы можете не печатать точку с запятой в конце строки, мы добавим ее за вас (ввод тоже возможен, значит вы более религиозны к **Saint He**).
@@ -83,13 +84,13 @@
 
 ## Установка
 
-1. Клон исходника：
+1. Клон исходника:
 
    ```bash
-   > git clone git@github.com:kifuan/helang.git
+   > git clone https://github.com/kifuan/helang.git
    ```
 
-2. Установка：
+2. Установка:
 
    ```bash
    > pip install .
@@ -168,17 +169,17 @@ print forceCon;
 
 Это так круто, что я забыл об этом позже, и я не хочу заново читать начало статьи.
 
-# Hello, world!
+# Hello, Litang.
 
-Некоторые думают, что невозможность напечатать «Hello, world!» означает, что этот языке плохой, но это не так.
+Некоторые думают, что невозможность напечатать «Hello, Litang.» означает, что этот языке плохой, но это не так.
 
 **Saint He** занимается разработкой приложений для микроконтроллеров, где взять время на учет строк?
 
-К счастью, после переговоров он согласился на просьбу, позволив нам напечатать «Hello, world!» на этом языке.
+К счастью, после переговоров он согласился на просьбу, позволив нам напечатать «Hello, Litang.» на этом языке.
 
 ```c
-sprint 72 | 101 | 108 | 108 | 111 | 44 | 32 | 119 | 111 | 114 | 108 | 100 | 33;
-// Hello, world!
+sprint 72 | 101 | 108 | 108 | 111 | 44 | 32 | 76 | 105 | 116 | 97 | 110 | 103 | 46; | 46;
+// Hello, Litang.
 ```
 
 Из-за чрезвычайно жестких требований к эффективности мы используем число, соответствующее символу в UTF-8, для представления этого символа.
@@ -230,48 +231,76 @@ cyberspaces;
 // Your location is UNITED STATES.
 // Congratulations! You are in the Cyber Spaces!
 ```
+Поскольку **Святой Хе** находится на кибер-горе, он не может видеть полную картину «IPV6», поэтому вы можете получить сообщение об ошибке «Не удалось разрешить IP».
 
 # Измерение скорости 5G
-
-По идее, этот кусок тоже относится к грамматике, но я просто хочу вынести его отдельно.
 
 Просто нужно ввести с новой строки:
 
 ```c
-test5g;
+test5g music;
 ```
 
-Вы можете начать измерение скорости 5G.
+Или используйте другую схему:
+
+```c
+test5g app;
+```
 
 # Итоги
 
-Подпишитесь на [Yongchu Taffy](https://space.bilibili.com/1265680561), подпишитесь на Yongchu Taffy, спасибо.
+1.Подпишитесь на [Yongchu Taffy](https://space.bilibili.com/1265680561), подпишитесь на Yongchu Taffy, спасибо.
 
-Подпишитесь на [Mao Lei NyaRu_Official](https://space.bilibili.com/697091119) Спасибо, мяу, я хочу есть китайский рис мяу.
+2.Подпишитесь на [Mao Lei NyaRu_Official](https://space.bilibili.com/697091119) Спасибо, мяу, я хочу есть китайский рис мяу.
 
-Подпишитесь на [Star Pupil_Official](https://space.bilibili.com/401315430), чтобы получить йо-йо-мей!
+3.Подпишитесь на [Star Pupil_Official](https://space.bilibili.com/401315430), чтобы получить йо-йо-мей!
 
-Подписывайтесь на [Diana](https://space.bilibili.com/672328094), и вы останетесь довольны! 
+4.Подписывайтесь на [Diana](https://space.bilibili.com/672328094), и вы останетесь довольны! 
 
-Подписывайтесь на [Ava](https://space.bilibili.com/672346917), подписывайтесь на Xiang Wan, еще не поздно!
+5.Подписывайтесь на [Ava](https://space.bilibili.com/672346917), подписывайтесь на Xiang Wan, еще не поздно!
 
-Подписывайтесь на [Eileen](https://space.bilibili.com/672342685), подписывайтесь на Nailin,спасибо!
+6.Подписывайтесь на [Eileen](https://space.bilibili.com/672342685), подписывайтесь на Nailin,спасибо!
 
-Подписывайтесь на [Bella](https://space.bilibili.com/672353429), подписывайтесь на Bella Му, спасибо Му!
+7.Подписывайтесь на [Bella](https://space.bilibili.com/672353429), подписывайтесь на Bella Му, спасибо Му!
 
-Подпишитесь на [Adhesion TechnologyOfficial](https://space.bilibili.com/248582596)
+8.Не подписывайтесь на [Официальный сайт East Snow Lotus] (https://space.bilibili.com/1437582453/). Вы не можете позволить Либэнь Ви есть китайский рис.
 
-Подписывайтесь на [HiiroVTuber](https://space.bilibili.com/508963009), а не на розовое кошку весом 425 кг!
+9.Подпишитесь на [Adhesion TechnologyOfficial](https://space.bilibili.com/248582596)
 
-Подпишитесь на [Luzao GOGO](https://space.bilibili.com/1669777785/)! Подписаться на Лу Зао Спасибо, Ван!
+10.Подписывайтесь на [HiiroVTuber](https://space.bilibili.com/508963009), а не на розовое кошку весом 425 кг!
 
-Подпишитесь на [AIChannel China Trip Love](https://space.bilibili.com/484322035)! Супер милый Super AI Cyber ​​Ding !
+11.Подпишитесь на [Luzao GOGO](https://space.bilibili.com/1669777785/)! Подписаться на Лу Зао Спасибо, Ван!
 
-Подпишитесь на [Luo Tianyi](https://space.bilibili.com/36081646), Кибер Дин Жень действительно больше похож на человеческую певицу Ви!
+12.Подпишитесь на [AIChannel China Trip Love](https://space.bilibili.com/484322035)! Супер милый Super AI Cyber ​​Ding !
 
-Подписывайтесь на [Традиционный Дин Жень](https://space.bilibili.com/1463028352), в каком возрасте еще обращать внимание на Кибер Дин Жень, почему бы и вам не поностальгировать!
+13.Подпишитесь на [Luo Tianyi](https://space.bilibili.com/36081646), Кибер Дин Жень действительно больше похож на человеческую певицу Ви!
 
-Подпишитесь на [Minato Acqua](https://space.bilibili.com/375504219) и [Ms rinco](https://www.nicovideo.jp/user/45194653)
+14.Подписывайтесь на [Традиционный Дин Жень](https://space.bilibili.com/1463028352), в каком возрасте еще обращать внимание на Кибер Дин Жень, почему бы и вам не поностальгировать!
+
+15.Подпишитесь на [Minato Acqua](https://space.bilibili.com/375504219) и [Ms rinco](https://www.nicovideo.jp/user/45194653)
 )! Глупый переполненный океан (крошки) горничная (луковица) и милое пение, кто любит Минасе Ини, с нетерпением жду окольного щипка Кигути. Также, пожалуйста, поддержите [galgame] (https://shop.hololivepro.com/products/aquarium_hololive_official_edition) спасибо!
 
-Подписывайтесь на [Genshin](https://space.bilibili.com/401742377), играть в Genshin намного лучше, чем смотреть Кибер Дин Жень!
+16.Подписывайтесь на [Genshin](https://space.bilibili.com/401742377), играть в Genshin намного лучше, чем смотреть Кибер Дин Жень!
+Выполните 1 и поблагодарите папу!
+
+17.Подпишитесь [Тан Цзюся все еще хочет лечь] (https://space.bilibili.com/1219196749), спасибо, папа!
+
+18.Подписывайтесь на [Kinoer Kino](https://space.bilibili.com/1383815813), защищайте самую абстрактную принцессу Джибу в мире!
+
+19.Подписывайтесь [Катя тоже не знает](https://space.bilibili.com/1011797664), спасибо!
+
+20.Подписывайтесь на [Dengruhiru](https://space.bilibili.com/1848290057), она не может понять эти техники, но зубки у нее очень милые,жить в любви!
+
+21.Подписывайтесь [Azusa](https://space.bilibili.com/7706705), tы такая щедрая Большое спасибо!
+
+22.Подписывайтесь [Ази с детства милый](https://space.bilibili.com/7706705) Спасибо большое!
+
+23.Подпишитесь на [Ke Jie] (https://space.bilibili.com/525952604),в 20-м веке вы все еще играете в традиционное го?
+
+24.Подписывайтесь [EOE.MINUO](https://space.bilibili.com/1778026586). МУА! Минуо!
+
+25.Подписывайтесь [OTTO](https://space.bilibili.com/628845081The), трехлетний король не боится!
+
+# Добавление
+
+Apple и AirPods являются товарными знаками Apple Inc., зарегистрированными в США и других странах и регионах.
