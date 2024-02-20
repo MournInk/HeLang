@@ -32,6 +32,8 @@ Deleted files | {}
 Location | BUPT Xitucheng Campus
 
 5G speed test finished.
+Upload: 114514 Mbps.
+Download: 1919810 Mbps.
 '''.strip()
 
 

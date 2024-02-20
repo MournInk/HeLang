@@ -1,19 +1,15 @@
+import os
 import sys
 import traceback
-
 from typing import Dict
 from helang.lexer import Lexer
 from helang.parser import Parser
 from helang.exceptions import HeLangException
 from helang.u8 import U8
-from helang.lt_code.window import LTCodeWindow
-from PySide6.QtWidgets import QApplication
-
-
 SHELL_HELP = """
-.help  Print this help message
-.exit  Exit the shell
-.env   Print current environments
+.help   Print this help message
+.exit   Exit the shell
+.env    Print current environments
 """.strip()
 
 
@@ -30,22 +26,20 @@ def process_shell_keywords(text: str, env: Dict[str, U8]):
         print(f'Invalid shell keyword: {text}')
 
 
-def launch_shell():
+def shell():
     env = dict()
+    print('HeLang 1.0 | packaged by Saint He. | (main, Feb 20 2024, 00:00:00) on win32\nType ".help" for help.')
     while True:
         text = ''
         try:
-            text = input('Speak to Saint He > ').strip()
+            text = input('>>> ').strip()
         except (EOFError, KeyboardInterrupt):
             process_shell_keywords('exit', env)
-
         if text == '':
             continue
-
         if text.startswith('.'):
             process_shell_keywords(text[1:], env)
             continue
-
         if not text.endswith(';'):
             text += ';'
         lexer = Lexer(text)
@@ -55,19 +49,16 @@ def launch_shell():
         except HeLangException:
             traceback.print_exc()
         except Exception as e:
-            print('Fatal Error! Revise Saint He\'s videos!')
+            print("SaintHe: fatal error: Revise Saint He's videos.")
             raise e
 
 
-def launch_editor():
-    app = QApplication()
-    editor = LTCodeWindow()
-    editor.show()
-    sys.exit(app.exec_())
-
-
-def launch_great_script():
-    with open('./great.he', 'r') as f:
+def run(filepath: str):
+    if not os.path.exists(filepath):
+        print(
+            f"SaintHe: fatal error: {filepath}: No such file or directory\ncompilation terminated.")
+        sys.exit(-1)
+    with open(filepath, 'r') as f:
         content = f.read()
     lexer = Lexer(content)
     parser = Parser(lexer.lex())
@@ -75,24 +66,11 @@ def launch_great_script():
     parser.parse().evaluate(env)
 
 
-LAUNCHERS = {
-    'great': launch_great_script,
-    'shell': launch_shell,
-    'editor': launch_editor,
-}
-
-
 def main():
-    """
-    Main function
-    """
-    target = sys.argv[-1]
-    if target not in LAUNCHERS.keys():
-        legal_targets = ', '.join(LAUNCHERS.keys())
-        print(f'Invalid launch target {target}, expected target: {legal_targets}.')
-        sys.exit(-1)
-
-    LAUNCHERS[target]()
+    if len(sys.argv) == 1:
+        shell()
+    else:
+        run(sys.argv[-1])
 
 
 if __name__ == '__main__':

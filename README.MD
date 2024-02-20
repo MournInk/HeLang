@@ -12,7 +12,7 @@
 <a href="https://github.com/kifuan/helang/actions/workflows/tests.yml"><img src="https://github.com/kifuan/helang/actions/workflows/tests.yml/badge.svg" alt="Test"></a>
 </p>
 
-# 停止维护声明
+# 原作者停止维护声明
 
 天天写玩具没意思，继续做圆锥曲线了。
 
@@ -22,23 +22,17 @@
 
 我个人不会再添加新功能。
 
-这个仓库挺适合入门菜鸡级别的编译原理，所以如需 PR 请注意**代码质量**。
+这个仓库挺适合入门菜鸡级别的编译原理，所以如需 PR 请注意 ** 代码质量 **。
 
 以上。
 
-**注：仍接受来自社区的 PR 和 Issues**
+** 注：仍接受来自社区的 PR 和 Issues**
 
 # 概述
 
-[English](README-EN.MD) [中文](README.MD) [Русский](README-RU.MD) 
+来自理塘的下一代 ** 赛博 ** 编程语言。
 
-Next-Generation **Cyber** Programming Language from Litang.
-
-来自理塘的下一代 **赛博** 编程语言。
-
-通过纯理塘自研的 `HeLang`，创建行业**新生态**，赋能无人涉及的**新赛道**，打通语言**底层逻辑**，注入**新型语法基因**。
-
-引个流先：https://www.bilibili.com/video/BV1XW4y1h79A/
+通过纯理塘自研的 `HeLang`，创建行业 ** 新生态 **，赋能无人涉及的 ** 新赛道 **，打通语言 ** 底层逻辑 **，注入 ** 新型语法基因 **。
 
 [![Star History Chart](https://api.star-history.com/svg?repos=kifuan/helang&type=Date)](https://star-history.com/#kifuan/helang&Date)
 
@@ -55,16 +49,16 @@ Next-Generation **Cyber** Programming Language from Litang.
 + 另一种 Rust 实现，支持用 $ 进行招聘！ [HeRang](https://github.com/xjrjyy/herang)
 + 我们要进军底层开发！[HeAssembly](https://github.com/FurryR/HeAssembly)
 + `Saint He` 曾说：要有函数式！于是 Haskell 便诞生。[HelangHaskellImpl](https://github.com/CziSKY/HelangHaskellImpl)
-+ 在Swift中使用Helang [HelangSwift](https://github.com/suransea/HelangSwift)
++ 在Swift 中使用 Helang [HelangSwift](https://github.com/suransea/HelangSwift)
 + `OCaml` 也想要变得赛博⚆_⚆ [HelangML](https://github.com/luooooob/HelangML)
-+ 通过 C++ 模板元编程，我们在赛博元宇宙发现了**何而上语言（Meta-Helang）**！[HeLangCppMetaImpl](https://github.com/Timothy-Liuxf/HeLangCppMetaImpl)
++ 通过 C++ 模板元编程，我们在赛博元宇宙发现了 ** 何而上语言（Meta-Helang）**！[HeLangCppMetaImpl](https://github.com/Timothy-Liuxf/HeLangCppMetaImpl)
 + L! T! C! (etc.)
 
 # 介绍
 
-> 至此 `HeLang`、`Jvav`、`C--` 在21世纪呈三足鼎立之态。
+> 至此 `HeLang`、`Jvav`、`C--` 在 21 世纪呈三足鼎立之态。
 > 
-> ——《赛博时代人类编程语言简史》，理塘计算机科学技术出版社，2202年。
+> ——《赛博时代人类编程语言简史》，理塘计算机科学技术出版社，2202 年。
 
 次世代赛博编程语言，诞生于 **E-SMOKER** 之乡：赛博理塘。
 
@@ -72,9 +66,9 @@ Next-Generation **Cyber** Programming Language from Litang.
 
 实在是太酷了，很符合我对未来生活的想象，科技并带着趣味。
 
-注：如果以**普通时间单位**（Basic Unit of Plain Time, [**BUPT**](https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6/139535?from=kg)）作为标准单位，本项目开发时长为 `1! + 5! + 5! + 5! = 361` 分钟。
+注：如果以 ** 普通时间单位 **（Basic Unit of Plain Time, [**BUPT**](https://baike.baidu.com/item/% E5%8C%97% E4% BA% AC% E9%82% AE% E7%94% B5% E5% A4% A7% E5% AD% A6/139535?from=kg)）作为标准单位，本项目开发时长为 `1! + 5! + 5! + 5! = 361` 分钟。
 
-注2：**BUPT** 在赛博世界还可以代指北邮（声明：我对本学府无恶意，我认为这是一所优秀的学校，我只是对某个人）。
+注 2：**BUPT** 在赛博世界还可以代指北邮（声明：我对本学府无恶意，我认为这是一所优秀的学校，我只是对某个人）。
 
 # 使用方法
 
@@ -94,13 +88,13 @@ Next-Generation **Cyber** Programming Language from Litang.
    > pip install -r requirements-gui.txt
    ```
 
-3. 你可以修改**伟大的脚本** `great.he`，然后以 `great` 的方式启动 `helang.py`：
+3. 你可以修改 ** 伟大的脚本 ** `great.he`，然后以 `great` 的方式启动 `helang.py`：
 
    ```bash
    > python helang.py great
    ```
 
-4. 你还可以以 `shell` 的方式启动`helang.py`，通过直接输入 HeLang 指令与 **Saint He** 进行一个赛博空间的对话：
+4. 你还可以以 `shell` 的方式启动 `helang.py`，通过直接输入 HeLang 指令与 **Saint He** 进行一个赛博空间的对话：
 
    ```bash
    > python helang.py shell
@@ -122,7 +116,7 @@ Next-Generation **Cyber** Programming Language from Litang.
    > python helang.py editor
    ```
    
-   ~持续开发中，会不断完善其功能。~
+   ~ 持续开发中，会不断完善其功能。~
 
    目前只支持在窗口内直接运行指定代码，并且当 `print` 过于频繁时会崩掉。
 
@@ -148,20 +142,20 @@ Next-Generation **Cyber** Programming Language from Litang.
 
 
 注：
-- 如果你来自锑星，则不需要使用 sol3 土著的愚蠢技术。你可以使用 1.14514 超克的`烷氮` ，通过`超理作用`触发赛博空间的全局中断，从而通过超理直接运行。  
-- 当你使用**非 Apple 设备**运行时，会抛出警告
+- 如果你来自锑星，则不需要使用 sol3 土著的愚蠢技术。你可以使用 1.14514 超克的 `烷氮` ，通过 `超理作用` 触发赛博空间的全局中断，从而通过超理直接运行。  
+- 当你使用 ** 非 Apple 设备 ** 运行时，会抛出警告
 `It seems like you're using a non-Apple device, which is not cool!`
 如果想要关闭此警告，请购买使用苹果设备。
 
-请注意：此行为十分危险且有概率失败，失败时如果附近存在`钅鸡铌钛镁`则会受到催化从而生成`烷基八氮`，此行为需要受到超理委员会的严格监管。
+请注意：此行为十分危险且有概率失败，失败时如果附近存在 `钅鸡铌钛镁` 则会受到催化从而生成 `烷基八氮`，此行为需要受到超理委员会的严格监管。
 
 # 基本语法
 
 **Saint He** 曾说，一切类型均为 `u8`，是什么意思呢？这个词倒过来就是 `8u`，看来圣人也喜欢玩贴吧。
 
-除此之外，`u8` 与 `v8` 形似，所以能不能关注[永雏↑塔↓菲](https://space.bilibili.com/1265680561)喵，关注永雏塔菲谢谢喵。
+除此之外，`u8` 与 `v8` 形似，所以能不能关注 [永雏↑塔↓菲](https://space.bilibili.com/1265680561) 喵，关注永雏塔菲谢谢喵。
 
-如你所见，我们用 **bitwise or**，即`|`代替了传统数组的符号。**都什么年代了还在写传统数组**？
+如你所见，我们用 **bitwise or**，即 `|` 代替了传统数组的符号。** 都什么年代了还在写传统数组 **？
 
 ```c
 u8 a = 1 | 2 | 3;
@@ -211,7 +205,7 @@ forceCon[1 | 2 | 6 | 7 | 11 | 52 | 57 | 58 | 65] = 10;
 print forceCon;
 ```
 
-如此精妙的代码，在地球的人类是无法理解的。我们作为**赛博智能生命体**，也只能给你演示一下日常操作了。
+如此精妙的代码，在地球的人类是无法理解的。我们作为 ** 赛博智能生命体 **，也只能给你演示一下日常操作了。
 
 这实在是太酷了，后面我忘了，我也不想翻到文章开头去看。
 
@@ -234,14 +228,14 @@ sprint 72 | 101 | 108 | 108 | 111 | 44 | 32 | 76 | 105 | 116 | 97 | 110 | 103 | 
 
 # 打印 Logo
 
-你可能觉得只打印出 `Hello, Litang.` 有点过于简单，**不符合一名理工男对未来生活的想象**。
+你可能觉得只打印出 `Hello, Litang.` 有点过于简单，** 不符合一名理工男对未来生活的想象 **。
 
 其实，你可以用以下方式打印出何语言的 Logo
 ```bash
 > python helang.py logo
 ```
 
-通过查看源文件 `lib/logo.he`，你会发现代码主要由**数字**构成，在赛博世界里，仅仅通过简单的数字就能显示复杂的图案，**不觉得这很酷吗**！
+通过查看源文件 `lib/logo.he`，你会发现代码主要由 ** 数字 ** 构成，在赛博世界里，仅仅通过简单的数字就能显示复杂的图案，** 不觉得这很酷吗 **！
 
 除此之外，你还可以在 HeLang 代码中打印 `HeLang Logo`，只需输入下方代码即可：
 
@@ -257,7 +251,7 @@ logo tiny;
 logo medium;
 ```
 
-在这种情况下，你会发现一切计算都会在 `HeLang` 中进行。在赛博世界里，仅仅通过简单的计算就能显示复杂的图案，**这真是太酷了**。
+在这种情况下，你会发现一切计算都会在 `HeLang` 中进行。在赛博世界里，仅仅通过简单的计算就能显示复杂的图案，** 这真是太酷了 **。
 
 # 自增运算
 
@@ -306,7 +300,7 @@ print a - b;
 
 # 乘法运算
 
-不同于加减法，乘法可以在**任意两个** `u8` 之间进行。此时的 `u8` 会被看作 `向量`，是不是非常的高科技？
+不同于加减法，乘法可以在 ** 任意两个 ** `u8` 之间进行。此时的 `u8` 会被看作 `向量`，是不是非常的高科技？
 
 ```c
 u8 a = 1 | 2;
@@ -319,7 +313,7 @@ print b * c;
 // 3*3 + 4*6 + 5*9 = 68
 ```
 
-注意，我们使用的是数量积 $\vec{a}\cdot\vec{b}$ 而非外积。
+注意，我们使用的是数量积 $\vec {a}\cdot\vec {b}$ 而非外积。
 
 # 变量声明与赋值
 
@@ -358,7 +352,7 @@ cyberspaces;
 
 由于 **Saint He** 身在一座赛博庐山上，导致他不能看清 `IPV6` 的全貌，因此你可能会得到 `Failed to resolve IP` 报错。
 
-# 5G测速
+# 5G 测速
 
 很简单，只需要另起一行输入：
 
@@ -372,63 +366,63 @@ test5g music;
 test5g app;
 ```
 
-即可从本行开始5G测速。
+即可从本行开始 5G 测速。
 
 # 总结
 
-1.关注[永雏塔菲](https://space.bilibili.com/1265680561)喵，关注永雏塔菲谢谢喵。
+1. 关注 [永雏塔菲](https://space.bilibili.com/1265680561) 喵，关注永雏塔菲谢谢喵。
 
-2.关注[猫雷NyaRu_Official](https://space.bilibili.com/697091119)谢谢喵，要吃中国的大米喵。
+2. 关注 [猫雷 NyaRu_Official](https://space.bilibili.com/697091119) 谢谢喵，要吃中国的大米喵。
 
-3.关注[星瞳_Official](https://space.bilibili.com/401315430)送溜溜梅！
+3. 关注 [星瞳_Official](https://space.bilibili.com/401315430) 送溜溜梅！
 
-4.关注[嘉然](https://space.bilibili.com/672328094)，顿顿解馋！ 
+4. 关注 [嘉然](https://space.bilibili.com/672328094)，顿顿解馋！ 
 
-5.关注[向晚](https://space.bilibili.com/672346917)，关注向晚，为时不晚！ 
+5. 关注 [向晚](https://space.bilibili.com/672346917)，关注向晚，为时不晚！ 
 
-6.关注[乃琳](https://space.bilibili.com/672342685)，关注乃琳嘎，关注乃琳谢谢嘎！
+6. 关注 [乃琳](https://space.bilibili.com/672342685)，关注乃琳嘎，关注乃琳谢谢嘎！
 
-7.关注[贝拉](https://space.bilibili.com/672353429)，关注贝拉哞，关注贝拉谢谢哞！
+7. 关注 [贝拉](https://space.bilibili.com/672353429)，关注贝拉哞，关注贝拉谢谢哞！
 
-8.举办[東雪蓮Official](https://space.bilibili.com/1437582453/)谢谢喵，不能让立本V吃中国的大米喵。
+8. 举办 [東雪蓮 Official](https://space.bilibili.com/1437582453/) 谢谢喵，不能让立本 V 吃中国的大米喵。
 
-9.关注[粘连科技Official](https://space.bilibili.com/248582596)，薄纱何同学喵🥰
+9. 关注 [粘连科技 Official](https://space.bilibili.com/248582596)，薄纱何同学喵🥰
 
-10.关注[HiiroVTuber](https://space.bilibili.com/508963009)，不是425KG的粉色喵！
+10. 关注 [HiiroVTuber](https://space.bilibili.com/508963009)，不是 425KG 的粉色喵！
 
-11.关注[露早GOGO](https://space.bilibili.com/1669777785/)！关注露早汪，关注露早谢谢汪！
+11. 关注 [露早 GOGO](https://space.bilibili.com/1669777785/)！关注露早汪，关注露早谢谢汪！
 
-12.关注[AIChannel中国绊爱](https://space.bilibili.com/484322035)！超级可爱的 Super AI 薄纱赛博丁真！
+12. 关注 [AIChannel 中国绊爱](https://space.bilibili.com/484322035)！超级可爱的 Super AI 薄纱赛博丁真！
 
-13.关注[有栖Mana_Official](https://space.bilibili.com/3149619)，谢谢喵。
+13. 关注 [有栖 Mana_Official](https://space.bilibili.com/3149619)，谢谢喵。
 
-14.关注[洛天依](https://space.bilibili.com/36081646)，比赛博丁真更像人的V家歌姬！
+14. 关注 [洛天依](https://space.bilibili.com/36081646)，比赛博丁真更像人的 V 家歌姬！
 
-15.关注[传统丁真](https://space.bilibili.com/1463028352)，什么年代了还在关注赛博丁真，不如来怀古！
+15. 关注 [传统丁真](https://space.bilibili.com/1463028352)，什么年代了还在关注赛博丁真，不如来怀古！
 
-16.关注[凑阿夸](https://space.bilibili.com/375504219)和[rinco小姐](https://www.nicovideo.jp/user/45194653
-)！傻气溢出的海洋（屑）女仆（洋葱）和喜欢水濑祈的可爱唱见 期待木口回旋捏 另外请支持阿夸主演的[galgame](https://shop.hololivepro.com/products/aquarium_hololive_official_edition)谢谢！
+16. 关注 [凑阿夸](https://space.bilibili.com/375504219) 和 [rinco 小姐](https://www.nicovideo.jp/user/45194653
+)！傻气溢出的海洋（屑）女仆（洋葱）和喜欢水濑祈的可爱唱见 期待木口回旋捏 另外请支持阿夸主演的 [galgame](https://shop.hololivepro.com/products/aquarium_hololive_official_edition) 谢谢！
 
-17.关注[原神](https://space.bilibili.com/401742377)，玩《原神》比看赛博丁真好多了！
+17. 关注 [原神](https://space.bilibili.com/401742377)，玩《原神》比看赛博丁真好多了！
 
-18.关注[唐九夏还想再躺一下](https://space.bilibili.com/1219196749)，谢谢爹!
+18. 关注 [唐九夏还想再躺一下](https://space.bilibili.com/1219196749)，谢谢爹！
 
-19.关注[吉诺儿kino](https://space.bilibili.com/1383815813)，守护全世界最抽象的吉芭公主！
+19. 关注 [吉诺儿 kino](https://space.bilibili.com/1383815813)，守护全世界最抽象的吉芭公主！
 
-20.关注[卡缇娅也不知道鸭](https://space.bilibili.com/1011797664)，谢谢鸭！
+20. 关注 [卡缇娅也不知道鸭](https://space.bilibili.com/1011797664)，谢谢鸭！
 
-21.关注[灯瑠hiru](https://space.bilibili.com/1848290057)，这些技术她都看不懂，可是她的锯齿牙真的好可爱呀，
+21. 关注 [灯瑠 hiru](https://space.bilibili.com/1848290057)，这些技术她都看不懂，可是她的锯齿牙真的好可爱呀，
 一整个爱住，啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！
 
-22.关注[阿梓从小就很可爱](https://space.bilibili.com/7706705)，太破费了吧，红豆泥阿里嘎多！
+22. 关注 [阿梓从小就很可爱](https://space.bilibili.com/7706705)，太破费了吧，红豆泥阿里嘎多！
 
-23.关注[柯洁](https://space.bilibili.com/525952604)，都什么年代，还在下传统围棋？
+23. 关注 [柯洁](https://space.bilibili.com/525952604)，都什么年代，还在下传统围棋？
 
-24.关注[米诺高分少女](https://space.bilibili.com/1778026586)，么么哒米诺！
+24. 关注 [米诺高分少女](https://space.bilibili.com/1778026586)，么么哒米诺！
 
-25.关注[电棍otto](https://space.bilibili.com/628845081)，年仅三岁的国王毫无畏惧！
+25. 关注 [电棍 otto](https://space.bilibili.com/628845081)，年仅三岁的国王毫无畏惧！
 
-26.观看番剧[高校舰队](https://mzh.moegirl.org.cn/zh-hans/%E9%AB%98%E6%A0%A1%E8%88%B0%E9%98%9F)，百合薄纱赛博丁真！
+26. 观看番剧 [高校舰队](https://mzh.moegirl.org.cn/zh-hans/% E9% AB%98% E6% A0% A1% E8%88% B0% E9%98%9F)，百合薄纱赛博丁真！
 
 # 附加
 
